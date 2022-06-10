@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'suneel Docker service conn'
-        repository: 'suneel_docker_repo_one'
+        repository: 'suneelbabuv/suneel_docker_repo_one'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: |
